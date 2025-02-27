@@ -1,5 +1,58 @@
 # Changelog
 
+## [0.0.33](https://github.com/QuivrHQ/quivr/compare/core-0.0.32...core-0.0.33) (2025-02-03)
+
+
+### Features
+
+* **zendesk:** add zendesk workflow ([#3586](https://github.com/QuivrHQ/quivr/issues/3586)) ([ee9b7a5](https://github.com/QuivrHQ/quivr/commit/ee9b7a5740825bd3fc9186e0a9179959c6525e5e))
+
+
+### Bug Fixes
+
+* CLI-24 ([ee9b7a5](https://github.com/QuivrHQ/quivr/commit/ee9b7a5740825bd3fc9186e0a9179959c6525e5e))
+
+## [0.0.32](https://github.com/QuivrHQ/quivr/compare/core-0.0.31...core-0.0.32) (2025-01-31)
+
+
+### Features
+
+* o3-mini ([#3583](https://github.com/QuivrHQ/quivr/issues/3583)) ([a639e0c](https://github.com/QuivrHQ/quivr/commit/a639e0ce50297e0fefa809b7edb57b50863b446d))
+
+## [0.0.31](https://github.com/QuivrHQ/quivr/compare/core-0.0.30...core-0.0.31) (2025-01-30)
+
+
+### Features
+
+* cache tokenizers ([#3558](https://github.com/QuivrHQ/quivr/issues/3558)) ([699dc2e](https://github.com/QuivrHQ/quivr/commit/699dc2e187abc9986845f591111723088f5bcefe))
+* limit tokenizers cache size ([#3577](https://github.com/QuivrHQ/quivr/issues/3577)) ([e2a3bcb](https://github.com/QuivrHQ/quivr/commit/e2a3bcbbdb469348187d986de9ba3901938bed58))
+* remove pympler dependency and add better way to calculate size of tokenizer cache ([#3580](https://github.com/QuivrHQ/quivr/issues/3580)) ([2fbd5d4](https://github.com/QuivrHQ/quivr/commit/2fbd5d48443625dd3fe8a37c04275cd760e7285f))
+* remove tokenizer load ([#3576](https://github.com/QuivrHQ/quivr/issues/3576)) ([05e212a](https://github.com/QuivrHQ/quivr/commit/05e212a30929ba3c00e31e3364363eb4a4376ad9))
+
+## [0.0.30](https://github.com/QuivrHQ/quivr/compare/core-0.0.29...core-0.0.30) (2025-01-27)
+
+
+### Features
+
+* adding cache to LLMEndpoint ([#3555](https://github.com/QuivrHQ/quivr/issues/3555)) ([6072907](https://github.com/QuivrHQ/quivr/commit/6072907ca7370be748d2d6845fd674abbb6c83c3))
+
+## [0.0.29](https://github.com/QuivrHQ/quivr/compare/core-0.0.28...core-0.0.29) (2025-01-20)
+
+
+### Features
+
+* enabling workflows without rewriting step ([#3549](https://github.com/QuivrHQ/quivr/issues/3549)) ([bbe1c18](https://github.com/QuivrHQ/quivr/commit/bbe1c183768bf32945554e679cab737c07bb3dde))
+* improving the prompts to always refer to 'tasks' instead of 'questions' ([#3528](https://github.com/QuivrHQ/quivr/issues/3528)) ([e9c72e1](https://github.com/QuivrHQ/quivr/commit/e9c72e15671407290f1a3a9758bf38a3357d2b15))
+* langfuse integration ([#3530](https://github.com/QuivrHQ/quivr/issues/3530)) ([c4aae1a](https://github.com/QuivrHQ/quivr/commit/c4aae1a6c21fd7bc7019676d32fa5b2e8fbbe171))
+* langfuse user id ([#3533](https://github.com/QuivrHQ/quivr/issues/3533)) ([e0ccd3d](https://github.com/QuivrHQ/quivr/commit/e0ccd3dc04b7527b27520465b2cf179e9789bf3f))
+* language detection after chunking ([#3532](https://github.com/QuivrHQ/quivr/issues/3532)) ([d0adb81](https://github.com/QuivrHQ/quivr/commit/d0adb8112a27fb7f25564d328a6f7e50ba27ba3a))
+* returning a description of each workflow node ([#3539](https://github.com/QuivrHQ/quivr/issues/3539)) ([d835fc6](https://github.com/QuivrHQ/quivr/commit/d835fc6e4c062bd485a715bc707a902493e092c2))
+
+
+### Bug Fixes
+
+* langfuse talk to model ([#3535](https://github.com/QuivrHQ/quivr/issues/3535)) ([9681a9e](https://github.com/QuivrHQ/quivr/commit/9681a9ec8b6b09fe20d04bf41d17a57afc5398f9))
+
 ## [0.0.28](https://github.com/QuivrHQ/quivr/compare/core-0.0.27...core-0.0.28) (2024-12-17)
 
 
